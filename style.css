@@ -1,0 +1,12 @@
+* {
+	margin: 0;
+	font-family: "Arsenal", sans-serif;
+}
+body {
+	background-color: rgba(20, 50, 20, 0.15);
+}
+.card {
+}
+.img-thumbnail {
+	max-height: 250px;
+}
