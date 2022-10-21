@@ -1,0 +1,14 @@
+$mainfont: "Arsenal", sans-serif;
+$background:rgba(20, 50, 20, 0.15);
+* {
+	margin: 0;
+	font-family: $mainfont;
+}
+body {
+	background-color: $background;
+}
+.card {
+}
+.img-thumbnail {
+	max-height: 250px;
+}
