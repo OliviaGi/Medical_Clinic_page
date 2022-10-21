@@ -12,11 +12,6 @@
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
     crossorigin="anonymous"
   />
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-    crossorigin="anonymous"
-  ></script>
   <link
     href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap"
     rel="stylesheet"
@@ -29,6 +24,11 @@
     href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Arsenal&display=swap"
     rel="stylesheet"
   />
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"
+  ></script>
 </head>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-1 pb-1">
   <button
@@ -56,7 +56,160 @@
 </nav>
 
 <body>
-  <main></main>
+  <main>
+    <div class="container-fluid bg-light p-4">
+      <div class="row justify-content-around">
+        <div class="col-lg-4 col-sm-10 text-center pb-4">
+          <img
+            src="https://images.pexels.com/photos/753478/pexels-photo-753478.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="The front of a medical office"
+            class="img-thumbnail"
+          />
+        </div>
+        <div class="col-lg-8 col-sm-10 text-center card p-4">
+          <h1 class="border-bottom pb-2">Mid Valley Medical Office</h1>
+          <p class="fw-bold">
+            1234 Main St <br />
+            Small Town, NY 12345
+            <br />
+            <a href="#" class="fw-bold text-secondary">555-123-4567</a>
+          </p>
+          <p class="text-start">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum
+            repellat sequi veritatis officiis magnam architecto et, rerum
+            molestiae, totam accusantium facere sit nihil ipsam esse.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bg-dark">
+      <div class="row text-light mx-auto p-3 justify-content-around">
+        <div class="col-lg-8 col-sm-10 mx-auto">
+          <h2 class="text-center">Services</h2>
+          <div class="accordion accordion-flush" id="servicesAccordian">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button
+                  class="accordion-button collapsed fw-bold"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseOne"
+                >
+                  Primary Care
+                </button>
+              </h2>
+              <div
+                id="flush-collapseOne"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  <div class="row">
+                    <p class="fs-4 text-center">
+                      <i class="fa-regular fa-clock"></i> Monday to Friday 8am
+                      to 5pm
+                    </p>
+                    <a href="#" class="text-dark text-center fs-5 pb-2"
+                      ><i class="fa-solid fa-square-phone"></i> 555-123-4567</a
+                    >
+                    <p class="px-1 mx-3 border-start mx-auto">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Sed, libero ullam? Quaerat nostrum in architecto officia
+                      ullam tempore, possimus laboriosam.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button
+                  class="accordion-button collapsed fw-bold"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseTwo"
+                >
+                  Pharmacy
+                </button>
+              </h2>
+              <div
+                id="flush-collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  <div class="row">
+                    <p class="fs-4 text-center">
+                      <i class="fa-regular fa-clock"></i> Monday to Friday 8am
+                      to 5pm
+                    </p>
+                    <a href="#" class="text-dark text-center fs-5 pb-2"
+                      ><i class="fa-solid fa-square-phone"></i> 555-123-4567</a
+                    >
+                    <p class="px-1 mx-3 border-start mx-auto">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Sed, libero ullam? Quaerat nostrum in architecto officia
+                      ullam tempore, possimus laboriosam.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button
+                  class="accordion-button collapsed fw-bold"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseOne"
+                >
+                  Lab
+                </button>
+              </h2>
+              <div
+                id="flush-collapseOne"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  <div class="row">
+                    <p class="fs-4 text-center">
+                      <i class="fa-regular fa-clock"></i> Monday to Friday 8am
+                      to 5pm
+                    </p>
+                    <a href="#" class="text-dark text-center fs-5 pb-2"
+                      ><i class="fa-solid fa-square-phone"></i> 555-123-4567</a
+                    >
+                    <p class="px-1 mx-3 border-start mx-auto">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Sed, libero ullam? Quaerat nostrum in architecto officia
+                      ullam tempore, possimus laboriosam.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-10 my-2">
+          <img
+            src="https://images.pexels.com/photos/7579831/pexels-photo-7579831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="..."
+            class="img-thumbnail"
+          />
+        </div>
+      </div>
+    </div>
+  </main>
   <footer class="bg-dark text-center text-white">
     <div class="container p-4 pb-0">
       <section class="mb-4">
