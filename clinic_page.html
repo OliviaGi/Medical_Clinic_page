@@ -1,6 +1,3 @@
-<!-- Issue with services drop-down, clicking first drop-down opens first and last drop-down and clicking last opens last and first.
-Probably due to incorrect Bootstrap class -->
-
 <head>
   <script
     src="https://kit.fontawesome.com/40a3bc6bef.js"
@@ -50,10 +47,10 @@ Probably due to incorrect Bootstrap class -->
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-item nav-link fs-5" aria-current="page" href="#"
+          <a
+            class="nav-item nav-link fs-5"
+            aria-current="page"
+            href="clinic_page.html"
             >Clinics</a
           >
         </li>
@@ -102,7 +99,7 @@ Probably due to incorrect Bootstrap class -->
       <div class="row text-light mx-auto p-3 justify-content-around">
         <div class="col-lg-8 col-sm-10 mx-auto">
           <h2 class="text-center">Services</h2>
-          <div class="accordion accordion-flush" id="servicesAccordian">
+          <div class="accordion accordion-flush" id="servicesAccordion">
             <div class="accordion-item">
               <h2 class="accordion-header" id="flush-headingOne">
                 <button
@@ -183,17 +180,17 @@ Probably due to incorrect Bootstrap class -->
                   class="accordion-button collapsed fw-bold"
                   type="button"
                   data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseOne"
+                  data-bs-target="#flush-collapseThree"
                   aria-expanded="false"
-                  aria-controls="flush-collapseOne"
+                  aria-controls="flush-collapseThree"
                 >
                   Lab
                 </button>
               </h2>
               <div
-                id="flush-collapseOne"
+                id="flush-collapseThree"
                 class="accordion-collapse collapse"
-                aria-labelledby="flush-headingOne"
+                aria-labelledby="flush-headingThree"
                 data-bs-parent="#accordionFlushExample"
               >
                 <div class="accordion-body">
