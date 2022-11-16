@@ -1,5 +1,5 @@
 # Medical Clinic Site
-Concept page for small medical clinic or medical offices
+[Concept page for small medical clinic or medical offices](https://oliviagi.github.io/Medical_Clinic_page/)
 
 ### Overview
 I am making this as a mobile-friendly website design primarily for use by small medical clinics or medical offices.
